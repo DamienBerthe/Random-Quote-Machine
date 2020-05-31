@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+    display: flex;          
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.z{
+  padding:10px;
+  margin:10px;
+}
+
+button{
+  margin: 6px;
+  font-size: inherit;
+  padding: 1.2em 2.4em;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "Booster Next FY", "Avenir Next", Avenir, sans-serif;
+  user-select: none;
+  color:white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
