@@ -2,8 +2,6 @@ import React from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import {kek} from './actions';
 import { Twitter } from 'react-feather';
-//import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   const randomIndex = useSelector(state => state.randomIndex);
